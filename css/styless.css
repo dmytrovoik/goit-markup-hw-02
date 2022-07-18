@@ -6,7 +6,7 @@ body {
     list-style: none;
 }
 /* цвет основного текста #212121;
- цвет выделенного текста blue #2196F3; 
+цвет выделенного текста blue #2196F3; 
 цвет вторичного текса серый  #757575; 
 цвет фона #FFFFFF (белый); 
 цвет фона темного #2F303A; 
@@ -19,10 +19,17 @@ box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
     color: #2196F3;
     color: #000000
 }
+/* hero */
+.hero-title {
+    color: #FFFFFF;
+}
 /* site nav */
 .site-nav .link { 
     color: #212121;
 }
 .site-nav .link:hover, .site-nav .link:focus {
     color: #2196F3;
+}
+.section-title {
+    color: #212121 ;
 }
