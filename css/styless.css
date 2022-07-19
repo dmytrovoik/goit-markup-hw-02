@@ -12,11 +12,12 @@ box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
     --primary-text-color: #757575;
     --titlt-text-color: #212121;
     --accent-color: #2196F3;
-    --head-text-color: #000000
+    --head-text-color: #000000;
+    --text-bg-white: #FFFFFF
 }
 body {
-    background-color: white;
-    color: #757575;
+    background-color:var(--text-bg-white);
+    color: var(--primary-text-color);
 } 
 .list {
     list-style: none;
@@ -28,7 +29,7 @@ body {
 }
 /* hero */
 .hero-title {
-    color: #FFFFFF;
+    color: var(--text-bg-white);
 }
 /* site nav */
 .site-nav .link { 
@@ -38,5 +39,10 @@ body {
     color: var(--accent-color);
 }
 .section-title {
-    color: var(--titlt-text-color) ;
+    color: var(--titlt-text-color);
+}
+/* button */
+.button {
+    color: var(--text-bg-white);
+    background-color: var(--accent-color);
 }
