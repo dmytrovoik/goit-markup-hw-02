@@ -1,10 +1,3 @@
-body {
-    background-color: white;
-    color: #757575;
-} 
-.list {
-    list-style: none;
-}
 /* цвет основного текста #212121;
 цвет выделенного текста blue #2196F3; 
 цвет вторичного текса серый  #757575; 
@@ -15,9 +8,23 @@ body {
 цвет background #E5E5E5
 box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
 цвет логотипа color: #000000*/
+:root {
+    --primary-text-color: #757575;
+    --titlt-text-color: #212121;
+    --accent-color: #2196F3;
+    --head-text-color: #000000
+}
+body {
+    background-color: white;
+    color: #757575;
+} 
+.list {
+    list-style: none;
+}
+
 .logo {
-    color: #2196F3;
-    color: #000000
+    color: var(--accent-color);
+    color: var(--head-text-color)
 }
 /* hero */
 .hero-title {
@@ -25,11 +32,11 @@ box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
 }
 /* site nav */
 .site-nav .link { 
-    color: #212121;
+    color: var(--titlt-text-color);
 }
 .site-nav .link:hover, .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .section-title {
-    color: #212121 ;
+    color: var(--titlt-text-color) ;
 }
