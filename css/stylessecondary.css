@@ -16,13 +16,23 @@ box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
     --text-bg-white: #FFFFFF;
     --bg-grey: #2F303A
 }
+/* логтип */
 .logo {
     color: var(--accent-color);
     color: var(--head-text-color)
 }
+/* точки */
 .list {
     list-style: none;
 }
+/* сслыки */
 .site-nav .link:hover, .site-nav .link:focus {
     color: var(--accent-color);
+}
+.link .link:hover, .link:focus {
+    color: var(--text-bg-white);
+    background-color: var(--accent-color);}
+/* main */
+.p {
+    color: var(--primary-text-color)
 }
