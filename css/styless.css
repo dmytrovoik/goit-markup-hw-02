@@ -28,6 +28,12 @@ body {
     color: var(--accent-color);
     color: var(--head-text-color)
 }
+/* фон-hero */
+.hero {
+color: var(--text-bg-white);
+background-color: var(--bg-grey);
+}
+
 /* hero */
 .hero-title {
     color: var(--text-bg-white);
@@ -45,8 +51,12 @@ body {
 .section-title {
     color: var(--titlt-text-color);
 }
-/* button */
+/*кнопка*/
 .button {
     color: var(--text-bg-white);
     background-color: var(--accent-color);
+}
+.footer {
+    color: var(--text-bg-white);
+    background-color: var(--bg-grey);
 }

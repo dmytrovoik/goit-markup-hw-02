@@ -14,7 +14,8 @@ box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
     --accent-color: #2196F3;
     --head-text-color: #000000;
     --text-bg-white: #FFFFFF;
-    --bg-grey: #2F303A
+    --bg-grey: #2F303A;
+    --text-shadow: rgba(0, 0, 0, 0.25);
 }
 /* логтип */
 .logo {
@@ -35,4 +36,22 @@ box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
 /* main */
 .p {
     color: var(--primary-text-color)
+}
+.section-title {
+    color: var(--titlt-text-color);
+}
+.section-title-shadow {
+    color: var(--text-shadow);
+}
+.p-shadow {
+    color: var(--primary-text-color);
+}
+/* кнопка */
+.button {
+    color: var(--text-bg-white);
+    background-color: var(--accent-color);  
+}
+.footer {
+    color: var(--text-bg-white);
+    background-color: var(--bg-grey);
 }
