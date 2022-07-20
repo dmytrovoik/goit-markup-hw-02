@@ -16,37 +16,13 @@ box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
     --text-bg-white: #FFFFFF;
     --bg-grey: #2F303A
 }
-body {
-    background-color:var(--text-bg-white);
-    color: var(--primary-text-color);
-} 
-.list {
-    list-style: none;
-}
-
 .logo {
     color: var(--accent-color);
     color: var(--head-text-color)
 }
-/* hero */
-.hero-title {
-    color: var(--text-bg-white);
-}
-/* site nav */
-.site-nav .link { 
-    color: var(--titlt-text-color);
+.list {
+    list-style: none;
 }
 .site-nav .link:hover, .site-nav .link:focus {
     color: var(--accent-color);
-}
-.auth-nav .link:hover, .site-nav .link:focus {
-    color: var(--accent-color);}
-
-.section-title {
-    color: var(--titlt-text-color);
-}
-/* button */
-.button {
-    color: var(--text-bg-white);
-    background-color: var(--accent-color);
 }
