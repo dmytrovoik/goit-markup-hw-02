@@ -17,10 +17,18 @@ box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
     --bg-grey: #2F303A;
     --text-shadow: rgba(0, 0, 0, 0.25);
 }
+body {
+    background-color:var(--text-bg-white);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em
+} 
 /* логтип */
 .logo {
     color: var(--accent-color);
-    color: var(--head-text-color)
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em
 }
 /* точки */
 .list {
@@ -47,8 +55,7 @@ box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
     color: var(--primary-text-color);
 }
 /* кнопка */
-.button {
-    color: var(--text-bg-white);
+.button {color: var(--text-bg-white);
     background-color: var(--accent-color);  
 }
 .footer {

@@ -19,43 +19,82 @@ box-shadow; text-shadow #rgba(0, 0, 0, 0.25)
 body {
     background-color:var(--text-bg-white);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em
 } 
-.list {
-    list-style: none;
-}
-
-.logo {
-    color: var(--accent-color);
-    color: var(--head-text-color)
-}
-/* фон-hero */
-.hero {
-color: var(--text-bg-white);
-background-color: var(--bg-grey);
-}
-
-/* hero */
-.hero-title {
-    color: var(--text-bg-white);
-}
-/* site nav */
-.site-nav .link { 
-    color: var(--titlt-text-color);
-}
-.site-nav .link:hover, .site-nav .link:focus {
-    color: var(--accent-color);
-}
-.auth-nav .link:hover, .site-nav .link:focus {
-    color: var(--accent-color);}
-
 .section-title {
     color: var(--titlt-text-color);
 }
-/*кнопка*/
+.list {
+    list-style: none;
+}
+/* лого */
+.logo {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    /* WebStudio */
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+font-weight: 700;
+font-size: 26px;
+line-height: 1,19;
+/* identical to box height */
+letter-spacing: 0.03em;
+}
+/* site nav */
+.site-nav .link:hover, .site-nav .link:focus
+{color: var(--titlt-text-color);
+    color: var(--accent-color)
+width: 49px;
+height: 16px;
+left: 453px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+}
+.site-nav {
+    color: var(--accent-color)}
+/*hero */
+.hero {
+color: var(--text-bg-white);
+background-color: var(--bg-grey);
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+    /*кнопка*/
 .button {
     color: var(--text-bg-white);
     background-color: var(--accent-color);
-}
+font-weight: 700;
+font-size: 16px;
+line-height: 1,88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;}
+.section-title {
+    font-weight: 700;
+font-size: 14px;
+line-height: 1,14;
+text-transform: uppercase}
+.section {
+font-weight: 400;
+font-size: 14px;
+line-height: 1,71;}
+
+.auth-nav .link:hover, .link:focus {
+    color: var(--accent-color);}
+
+
+
 .footer {
     color: var(--text-bg-white);
     background-color: var(--bg-grey);
