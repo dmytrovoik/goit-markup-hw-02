@@ -28,7 +28,11 @@ body {
 .logo {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
-    letter-spacing: 0.03em
+font-weight: 700;
+font-size: 26px;
+line-height: 1,19;
+/* identical to box height */
+letter-spacing: 0.03em;
 }
 /* точки */
 .list {
@@ -55,8 +59,22 @@ body {
     color: var(--primary-text-color);
 }
 /* кнопка */
-.button {color: var(--text-bg-white);
+button {color: var(--text-bg-white);
     background-color: var(--accent-color);  
+}
+h2 {
+    color: var(--titlt-text-color)
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+p {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,88;
+    letter-spacing: 0.03em;
 }
 .footer {
     color: var(--text-bg-white);
