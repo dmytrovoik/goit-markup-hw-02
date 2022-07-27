@@ -36,14 +36,12 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;}
 .button {
     color: var(--text-white);
     background-color: var(--accent);
     font-family: inherit;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
