@@ -40,7 +40,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;}
 .button {
-    color: var(--secondary-text);
+    color: var(--text-white);
     background-color: var(--accent);
     font-family: inherit;
     font-family: 'Roboto';
